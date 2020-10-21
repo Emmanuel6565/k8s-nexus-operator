@@ -1,0 +1,7 @@
+apiVersion: cache.foundry.io/v1
+kind: Nexus
+metadata:
+  name: nexus-sample
+spec:
+  # Add fields here
+  foo: bar

@@ -1,0 +1,11 @@
+domain: foundry.io
+layout: go.kubebuilder.io/v2
+projectName: k8s-nexus-operator
+repo: github.com/Emmanuel6565/k8s-nexus-operator
+resources:
+- group: cache
+  kind: Nexus
+  version: v1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
