@@ -29,7 +29,12 @@ type NexusSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of Nexus. Edit Nexus_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Foo           string `json:"foo,omitempty"`
+	Name          string `json:"name,omitempty`
+	Namespace     string `json:"namespace,omitempty`
+	Imagename     string `json:"imagename, omitempty`
+	Backup        bool   `json:"backup,omitempty"`
+	Replicascount int32  `json:"replicascount,omitempty"`
 }
 
 // NexusStatus defines the observed state of Nexus
